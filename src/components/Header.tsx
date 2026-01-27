@@ -6,10 +6,10 @@ const Header = () => {
     <div>
       <div className="navbar bg-base-400 px-[20%] border-b border-base-300">
         <div className="flex-1 items-center gap-2">
-          <a className="btn btn-ghost text-xl">
+          <Link to="/" className="btn btn-ghost text-xl">
             <BowlFood size={40} />
             YUJI
-          </a>
+          </Link>
         </div>
         <div className="flex-none">
           <ul className="menu menu-horizontal px-1">
