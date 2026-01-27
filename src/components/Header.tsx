@@ -1,12 +1,15 @@
 import { Link } from "react-router-dom";
-import { AppWindow, HouseSimple, Book, EnvelopeSimpleOpen, GlobeHemisphereWest } from "@phosphor-icons/react";
+import { AppWindow, HouseSimple, Book, EnvelopeSimpleOpen, GlobeHemisphereWest, BowlFood } from "@phosphor-icons/react";
 
 const Header = () => {
   return (
     <div>
       <div className="navbar bg-base-400 px-[20%] border-b border-base-300">
-        <div className="flex-1">
-          <a className="btn btn-ghost text-xl">YUJI</a>
+        <div className="flex-1 items-center gap-2">
+          <a className="btn btn-ghost text-xl">
+            <BowlFood size={40} />
+            YUJI
+          </a>
         </div>
         <div className="flex-none">
           <ul className="menu menu-horizontal px-1">
