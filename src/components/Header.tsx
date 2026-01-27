@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Smiley, Heart, Horse } from "@phosphor-icons/react";
+import { AppWindow, HouseSimple, Book, EnvelopeSimpleOpen, GlobeHemisphereWest } from "@phosphor-icons/react";
 
 const Header = () => {
   return (
@@ -11,21 +11,36 @@ const Header = () => {
         <div className="flex-none">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <Link to="/home">Home</Link>
+              <Link to="/home" className="flex items-center gap-1">
+                <HouseSimple size={18} />
+                <span>Home</span>
+              </Link>
             </li>
             <li>
-              <Link to="/blog">Blog</Link>
+              <Link to="/blog">
+                <Book size={18}></Book>
+                <span>Blog</span>
+              </Link>
             </li>
             <li>
-              <Link to="/code">Code</Link>
+              <Link to="/code" className="flex items-center gap-1">
+                <AppWindow size={18} />
+                <span>Code</span>
+              </Link>
             </li>
             <li>
-              <a>Contact</a>
+              <Link to="/contacgt" className="flex items-center gap-1">
+                <EnvelopeSimpleOpen size={18} />
+                <span>Contact</span>
+              </Link>
             </li>
-            <li>
+            <li className="flex items-center gap-1">
               <details>
-                <summary>Language</summary>
-                <ul className="bg-base-100 rounded-t-none p-2">
+                <summary className="flex items-center gap-1">
+                  <GlobeHemisphereWest size={18} />
+                  <span>Language</span>
+                </summary>
+                <ul className="p-2">
                   <li>
                     <a>English</a>
                   </li>
