@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { Smiley, Heart, Horse } from "@phosphor-icons/react";
 
 const Header = () => {
   return (
@@ -16,7 +17,7 @@ const Header = () => {
               <Link to="/blog">Blog</Link>
             </li>
             <li>
-              <a>About</a>
+              <Link to="/code">Code</Link>
             </li>
             <li>
               <a>Contact</a>
