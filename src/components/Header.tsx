@@ -4,7 +4,7 @@ import { AppWindow, HouseSimple, Book, EnvelopeSimpleOpen, GlobeHemisphereWest, 
 const Header = () => {
   return (
     <div>
-      <div className="navbar bg-base-400 px-[20%] border-b border-base-300">
+      <div className="navbar bg-base-400 px-[20%] py-5 border-b border-base-300">
         <div className="flex-1 items-center gap-2">
           <Link to="/" className="btn btn-ghost text-xl">
             <BowlFood size={40} />
@@ -12,7 +12,7 @@ const Header = () => {
           </Link>
         </div>
         <div className="flex-none">
-          <ul className="menu menu-horizontal px-1">
+          <ul className="menu menu-horizontal px-1 gap-4">
             <li>
               <Link to="/home" className="flex items-center gap-1">
                 <HouseSimple size={18} />
