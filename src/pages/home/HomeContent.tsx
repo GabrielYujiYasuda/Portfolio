@@ -3,7 +3,7 @@ import IntroducerBanner from "./IntroducerBanner";
 
 const HomeContent = () => {
   return (
-    <div className="flex flex-col px-[20%]">
+    <div className="flex flex-col ">
       <IntroducerBanner />
       <ExperienceSection />
     </div>
