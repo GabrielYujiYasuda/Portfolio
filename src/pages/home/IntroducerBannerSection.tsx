@@ -1,4 +1,4 @@
-const IntroducerBanner = () => {
+const IntroducerBannerSection = () => {
   return (
     <div className=" mt-30 mb-20 px-[20%]">
       <div className="text-[14px] bg-orange-200 p-2 px-6 rounded-full w-fit">Welcome to my corner of the internet</div>
@@ -15,4 +15,4 @@ const IntroducerBanner = () => {
   );
 };
 
-export default IntroducerBanner;
+export default IntroducerBannerSection;

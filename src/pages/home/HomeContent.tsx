@@ -1,11 +1,13 @@
 import ExperienceSection from "./ExperienceSection";
-import IntroducerBanner from "./IntroducerBanner";
+import IntroducerBannerSection from "./IntroducerBannerSection";
+import LatestPostsSection from "./LatestPostsSection";
 
 const HomeContent = () => {
   return (
     <div className="flex flex-col ">
-      <IntroducerBanner />
+      <IntroducerBannerSection />
       <ExperienceSection />
+      <LatestPostsSection />
     </div>
   );
 };
