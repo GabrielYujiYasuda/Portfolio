@@ -1,46 +1,42 @@
 import Card from "../../components/Card";
 
+const cards = [
+  {
+    icon: "user",
+    title: "About Me",
+    description: "this is the description this is the description this is the description",
+  },
+  {
+    icon: "user",
+    title: "Experience",
+    description: "this is the description this is the description this is the description",
+  },
+  {
+    icon: "user",
+    title: "Projects",
+    description: "this is the description this is the description this is the description",
+  },
+  {
+    icon: "user",
+    title: "Education",
+    description: "this is the description this is the description this is the description",
+  },
+  {
+    icon: "user",
+    title: "Skills",
+    description: "this is the description this is the description this is the description",
+  },
+];
+
 const ExperienceSection = () => {
   return (
-    <div className="py-30 px-[20%] bg-white">
+    <section className="py-30 px-[15%] bg-white">
       <div className="flex gap-6 overflow-x-auto">
-        <Card
-          icon="icon"
-          title="About Me"
-          description="this is the description this is the descriptionthis is the descriptionthis is the descriptionthis is the description"
-        />
-        <Card
-          icon="icon"
-          title="About Me"
-          description="this is the description this is the descriptionthis is the descriptionthis is the descriptionthis is the description"
-        />
-        <Card
-          icon="icon"
-          title="About Me"
-          description="this is the description this is the descriptionthis is the descriptionthis is the descriptionthis is the description"
-        />
-        <Card
-          icon="icon"
-          title="About Me"
-          description="this is the description this is the descriptionthis is the descriptionthis is the descriptionthis is the description"
-        />
-        <Card
-          icon="icon"
-          title="About Me"
-          description="this is the description this is the descriptionthis is the descriptionthis is the descriptionthis is the description"
-        />
-        <Card
-          icon="icon"
-          title="About Me"
-          description="this is the description this is the descriptionthis is the descriptionthis is the descriptionthis is the description"
-        />
-        <Card
-          icon="icon"
-          title="About Me"
-          description="this is the description this is the descriptionthis is the descriptionthis is the descriptionthis is the description"
-        />
+        {cards.map((card, index) => (
+          <Card key={index} {...card} />
+        ))}
       </div>
-    </div>
+    </section>
   );
 };
 

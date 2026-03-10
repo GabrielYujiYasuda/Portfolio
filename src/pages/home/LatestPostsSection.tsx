@@ -1,6 +1,6 @@
 const LatestPostsSection = () => {
   return (
-    <div className="px-[20%] bg-black">
+    <div className="px-[15%] bg-black">
       <div>Latest Posts Section</div>
     </div>
   );
