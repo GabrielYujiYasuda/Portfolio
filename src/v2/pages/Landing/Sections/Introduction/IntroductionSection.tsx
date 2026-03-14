@@ -4,7 +4,7 @@ import myPhoto from "../../../../../assets/my-photo.jpg";
 
 const IntroductionSection = () => {
   return (
-    <section className="bg-white mt-20 mb-20">
+    <section className="my-20">
       <div
         className={`mx-auto flex ${STYLES.BASE_HORIZONTAL_PADDING} flex-col gap-12 px-6 py-20 lg:flex-row lg:items-center`}
       >

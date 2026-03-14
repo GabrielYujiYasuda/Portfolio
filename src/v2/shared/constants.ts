@@ -10,3 +10,12 @@ export const INTRODUCTION_SECTION = {
   WORK_WITH_ME_TEXT: "Work with me",
   VIEW_PROJECTS_TEXT: "View projects",
 };
+
+export const ABOUT_ME_SECTION = {
+  ABOUT_TEXT: "ABOUT",
+  TITLE: "A developer who ships.",
+  LEFT_PARAGRAPH:
+    "With 4+ years of professional experience building web applications, I've developed a deep understanding of modern frontend and backend technologies. I focus on writing clean, maintainable code that scales — because the best architecture is the one you don't have to explain.",
+  RIGHT_PARAGRAPH:
+    "Beyond my full-time role, I partner with startups and small businesses to build performant, production-ready web products. From greenfield MVPs to complex feature integrations, I treat every project with the same rigor I'd apply to my own. I'm available for freelance work and long-term collaborations.",
+};
