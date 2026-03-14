@@ -1,7 +1,11 @@
+import AboutMe from "./Sections/AboutMe/AboutMe";
+import IntroductionSection from "./Sections/Introduction/IntroductionSection";
+
 const LandingPageContent = () => {
   return (
     <div>
-      <div>LandingPAgeContent</div>
+      <IntroductionSection />
+      <AboutMe />
     </div>
   );
 };
