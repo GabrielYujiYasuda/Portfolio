@@ -20,7 +20,7 @@ const ExperienceCard = ({
   className,
 }: ExperienceCardProps) => {
   return (
-    <div className={`card w-full max-w-3xl rounded-3xl bg-white/70 shadow-xl ring-1 ring-black/5 ${className ?? ""}`}>
+    <div className={`card w-full rounded-3xl bg-white/70 shadow-xl ring-1 ring-black/5 ${className ?? ""}`}>
       <div className="card-body gap-5">
         <div className="flex items-start justify-between gap-4">
           <div>

@@ -1,4 +1,6 @@
 import AboutMeSection from "./Sections/AboutMeSection";
+import AvailabilitySection from "./Sections/AvailabilitySection";
+import ContactSection from "./Sections/ContactSection";
 import ExperienceSection from "./Sections/ExperienceSection";
 import IntroductionSection from "./Sections/IntroductionSection";
 import ProjectsSection from "./Sections/ProjectsSection";
@@ -12,6 +14,8 @@ const LandingPageContent = () => {
       <SkillsSection />
       <ExperienceSection />
       <ProjectsSection />
+      <ContactSection />
+      <AvailabilitySection />
     </div>
   );
 };
