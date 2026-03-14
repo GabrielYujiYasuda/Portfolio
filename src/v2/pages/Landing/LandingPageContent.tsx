@@ -1,6 +1,6 @@
-import AboutMeSection from "./Sections/AboutMe/AboutMeSection";
-import IntroductionSection from "./Sections/Introduction/IntroductionSection";
-import SkillsSection from "./Sections/Skills/SkillsSection";
+import AboutMeSection from "./Sections/AboutMeSection";
+import IntroductionSection from "./Sections/IntroductionSection";
+import SkillsSection from "./Sections/SkillsSection";
 
 const LandingPageContent = () => {
   return (

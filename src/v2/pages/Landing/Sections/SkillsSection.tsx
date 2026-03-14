@@ -1,5 +1,5 @@
-import Card from "../../../../components/Card";
-import { SKILLS_SECTION, STYLES } from "../../../../shared/constants";
+import Card from "../../../components/Card";
+import { SKILLS_SECTION, STYLES } from "../../../shared/constants";
 
 const skillGroups = [
   {

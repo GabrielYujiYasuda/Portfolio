@@ -1,4 +1,4 @@
-import { STYLES, ABOUT_ME_SECTION } from "../../../../shared/constants";
+import { STYLES, ABOUT_ME_SECTION } from "../../../shared/constants";
 
 const AboutMeSection = () => {
   return (
