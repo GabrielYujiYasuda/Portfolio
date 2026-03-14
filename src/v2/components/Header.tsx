@@ -3,7 +3,7 @@ import { STYLES } from "../shared/constants";
 
 const Header = () => {
   return (
-    <header className="sticky top-0 z-50 bg-white/70 backdrop-blur-md border-b border-base-200">
+    <header className="sticky top-0 z-50 bg-white/70 backdrop-blur-md border-b border-base-300">
       <div className={`mx-auto flex ${STYLES.BASE_HORIZONTAL_PADDING} items-center justify-between px-6 py-4`}>
         <Link to="/" className="text-[18px] font-semibold text-[rgb(9,9,11)]">
           dev.portfolio
