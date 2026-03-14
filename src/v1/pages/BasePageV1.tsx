@@ -1,12 +1,12 @@
 import type { ReactNode } from "react";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+import Header from "../v1/components/Header";
+import Footer from "../v1/components/Footer";
 
 type PageLayoutProps = {
   content: ReactNode;
 };
 
-const BasePage = ({ content }: PageLayoutProps) => {
+const BasePageV1 = ({ content }: PageLayoutProps) => {
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
@@ -18,4 +18,4 @@ const BasePage = ({ content }: PageLayoutProps) => {
   );
 };
 
-export default BasePage;
+export default BasePageV1;
