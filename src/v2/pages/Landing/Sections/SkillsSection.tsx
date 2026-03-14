@@ -1,4 +1,4 @@
-import Card from "../../../components/Card";
+import SkillCard from "../../../components/SkillCard";
 import { SKILLS_SECTION, STYLES } from "../../../shared/constants";
 
 const skillGroups = [
@@ -27,7 +27,7 @@ const SkillsSection = () => {
 
         <div className="mt-10 grid gap-6 lg:grid-cols-3">
           {skillGroups.map((group) => (
-            <Card key={group.title} title={group.title} tags={group.tags} />
+            <SkillCard key={group.title} title={group.title} tags={group.tags} />
           ))}
         </div>
       </div>
