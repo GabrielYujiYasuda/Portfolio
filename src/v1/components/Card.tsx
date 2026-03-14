@@ -19,7 +19,7 @@ const Card = ({ title, description }: CardProps) => {
       to-transparent
       transition
       duration-300
-      hover:scale-[1.03]
+      hover:-translate-y-2
     "
     >
       {/* Glow */}

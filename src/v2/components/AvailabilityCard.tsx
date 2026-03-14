@@ -45,7 +45,9 @@ const AvailabilityCard = ({
   );
 
   return (
-    <div className={`card w-full rounded-3xl bg-white/70 shadow-xl ring-1 ring-black/5 ${className ?? ""}`}>
+    <div
+      className={`card w-full rounded-3xl bg-white/70 shadow-xl ring-1 ring-black/5 transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl ${className ?? ""}`}
+    >
       <div className="card-body gap-4 p-12 text-center">
         {statusLabel ? (
           <p className="text-xs font-semibold tracking-widest text-gray-500 uppercase">{statusLabel}</p>

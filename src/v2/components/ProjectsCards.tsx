@@ -34,7 +34,7 @@ const ProjectsCards = ({ projects, className }: ProjectsCardsProps) => {
         <div
           key={project.title}
           className={
-            "card w-full rounded-3xl bg-white/70 shadow-xl ring-1 ring-black/5 overflow-hidden " +
+            "card w-full rounded-3xl bg-white/70 shadow-xl ring-1 ring-black/5 overflow-hidden transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl " +
             (project.className ?? "")
           }
         >
