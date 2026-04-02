@@ -29,7 +29,7 @@ const Header = () => {
               Contact
             </Link>
           </nav>
-          <Link to="/" className="btn bg-[#0064E6] text-white rounded-2xl">
+          <Link to="/" className="inline-flex items-center justify-center rounded-lg bg-blue-600 px-4 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-blue-700">
             Work with me
           </Link>
         </div>
