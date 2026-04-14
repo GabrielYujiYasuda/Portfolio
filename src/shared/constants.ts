@@ -1,3 +1,8 @@
+export const GLOBALS = {
+  GITHUB_URL: "https://github.com/GabrielYujiYasuda",
+  LINKEDIN_URL: "https://www.linkedin.com/in/gabrielyasuda/",
+};
+
 export const STYLES = {
   BASE_HORIZONTAL_PADDING: "max-w-5xl",
 };
