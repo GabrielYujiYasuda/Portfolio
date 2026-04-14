@@ -1,10 +1,15 @@
 import { Link } from "react-router-dom";
 import { INTRODUCTION_SECTION, STYLES } from "../../../shared/constants";
 import myPhoto from "../../../assets/my-photo.jpg";
+import ScrollArrowDown from "../../../components/ScrollArrowDown";
 
 const IntroductionSection = () => {
+  const handleScrollToAbout = () => {
+    document.getElementById("about-me")?.scrollIntoView({ behavior: "smooth", block: "start" });
+  };
+
   return (
-    <section className="my-20">
+    <section className="relative my-20 pb-28">
       <div
         className={`mx-auto flex ${STYLES.BASE_HORIZONTAL_PADDING} flex-col gap-12 px-6 py-20 lg:flex-row lg:items-center`}
       >
@@ -36,6 +41,8 @@ const IntroductionSection = () => {
           </div>
         </div>
       </div>
+
+      <ScrollArrowDown scrollTo={handleScrollToAbout} />
     </section>
   );
 };

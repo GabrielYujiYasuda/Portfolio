@@ -2,7 +2,7 @@ import { STYLES, ABOUT_ME_SECTION } from "../../../shared/constants";
 
 const AboutMeSection = () => {
   return (
-    <section className="my-20">
+    <section id="about-me" className="my-20 scroll-mt-24">
       <div className={`mx-auto ${STYLES.BASE_HORIZONTAL_PADDING} py-20`}>
         <div className="max-w-4xl">
           <p className="text-sm font-semibold tracking-widest text-gray-500">{ABOUT_ME_SECTION.ABOUT_TEXT}</p>
