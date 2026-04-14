@@ -10,7 +10,7 @@ const contactItems = [
   },
   {
     label: "Linkedin",
-    value: "linkedin.com/yourname",
+    value: "linkedin.com/in/gabrielyasuda",
     href: GLOBALS.LINKEDIN_URL,
     icon: LinkedinLogo,
   },

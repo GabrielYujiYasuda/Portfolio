@@ -1,5 +1,4 @@
 import { STYLES } from "../../../shared/constants";
-import ContactForm from "../../../components/ContactForm";
 import ContactCards from "../../../components/ContactCards";
 
 const ContactSection = () => {
@@ -15,7 +14,15 @@ const ContactSection = () => {
           </p>
         </div>
         <div className="mt-12 grid gap-8 lg:grid-cols-[minmax(0,1.65fr)_minmax(0,1fr)]">
-          <ContactForm />
+          <div className="flex flex-col items-center justify-center py-12 px-8 rounded-lg bg-gray-50 border border-gray-200">
+            <div className="inline-block px-3 py-1 mb-4 text-xs font-semibold text-blue-600 bg-blue-50 rounded-full">
+              Coming Soon
+            </div>
+            <h3 className="text-lg font-semibold text-slate-900 text-center">Contact Form Coming Soon</h3>
+            <p className="mt-2 text-center text-slate-600">
+              I'm setting up the emailing service. In the meantime, use the contact methods below to reach out.
+            </p>
+          </div>
           <ContactCards />
         </div>
       </div>

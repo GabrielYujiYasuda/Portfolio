@@ -98,7 +98,7 @@ const ContactForm = () => {
 
       <button
         type="submit"
-        disabled={isSubmitting}
+        disabled={true}
         className="mt-8 inline-flex items-center gap-2 rounded-xl bg-[#0b6bff] px-6 py-3 text-base font-semibold text-white shadow-[0_8px_18px_rgba(11,107,255,0.35)] transition hover:bg-[#055de5] disabled:opacity-70 disabled:cursor-not-allowed"
       >
         <PaperPlaneTilt size={18} weight="fill" />
