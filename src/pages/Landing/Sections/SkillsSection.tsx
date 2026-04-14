@@ -8,7 +8,7 @@ const skillGroups = [
   },
   {
     title: "Backend",
-    tags: [".NET", "REST APIs", "Microservices", "Unit Tests", "SQL", "SQLServer"],
+    tags: [".NET", "REST APIs", "Microservices", "Unit Tests", "SQL", "SQLServer", "Clean Code"],
   },
   {
     title: "Tools & Infra",

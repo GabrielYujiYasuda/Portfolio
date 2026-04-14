@@ -1,25 +1,27 @@
 import ProjectsCards from "../../../components/ProjectsCards";
 import type { ProjectCardData } from "../../../components/ProjectsCards";
 import { STYLES } from "../../../shared/constants";
+import appImage from "../../../assets/cellphone-app.png";
+import webImage from "../../../assets/web-app.png";
 
 const projects: ProjectCardData[] = [
   {
-    title: "Analytics Dashboard",
+    title: "Web Application Dashboard",
     description:
       "Real-time analytics platform with interactive charts, role-based access, and automated reporting. Built for a fintech startup processing 2M+ events daily.",
-    imageSrc: "/projects/dashboard.png",
-    imageAlt: "Analytics dashboard screenshot",
-    tags: ["React", "TypeScript", "D3.js", "Node.js", "PostgreSQL"],
+    imageSrc: appImage,
+    imageAlt: "Web application dashboard screenshot",
+    tags: [".NET", "React", "SQLServer", "Microservices", "Azure DevOps"],
     liveUrl: "#",
     sourceUrl: "#",
   },
   {
-    title: "Design System Library",
+    title: "Mobile Android App",
     description:
       "Reusable component library with a strict design token system, used across multiple web products to ensure UI consistency and accessibility.",
-    imageSrc: "/projects/design-system.png",
-    imageAlt: "Design system component library preview",
-    tags: ["React", "Storybook", "Tailwind CSS", "Cypress"],
+    imageSrc: webImage,
+    imageAlt: "Mobile Android app screenshot",
+    tags: ["Android", "Kotlin", "JetPackCCompose", "Firebase"],
     liveUrl: "#",
     sourceUrl: "#",
   },

@@ -39,12 +39,14 @@ const ProjectsCards = ({ projects, className }: ProjectsCardsProps) => {
           }
         >
           <div className="grid gap-6 lg:grid-cols-[420px_minmax(0,1fr)]">
-            <div className="relative h-56 w-full overflow-hidden bg-slate-200 lg:h-full">
-              <img
-                src={project.imageSrc}
-                alt={project.imageAlt ?? project.title}
-                className="h-full w-full object-cover"
-              />
+            <div className="p-4 lg:p-5">
+              <div className="relative h-56 w-full overflow-hidden rounded-2xl bg-slate-200 lg:h-full">
+                <img
+                  src={project.imageSrc}
+                  alt={project.imageAlt ?? project.title}
+                  className="h-full w-full object-cover"
+                />
+              </div>
             </div>
 
             <div className="p-8">
