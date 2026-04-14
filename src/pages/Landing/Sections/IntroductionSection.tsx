@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { INTRODUCTION_SECTION, STYLES } from "../../../shared/constants";
-import myPhoto from "../../../../assets/my-photo.jpg";
+import myPhoto from "../../../assets/my-photo.jpg";
 
 const IntroductionSection = () => {
   return (
