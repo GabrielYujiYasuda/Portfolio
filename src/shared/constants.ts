@@ -7,6 +7,16 @@ export const STYLES = {
   BASE_HORIZONTAL_PADDING: "max-w-5xl",
 };
 
+export const HEADER = {
+  LOGO: "< GabrielYuji />",
+  NAV_ABOUT: "Sobre",
+  NAV_SKILLS: "Habilidades",
+  NAV_EXPERIENCE: "Experiência",
+  NAV_PROJECTS: "Projetos",
+  NAV_CONTACT: "Contato",
+  CTA_BUTTON: "Trabalhe Comigo",
+};
+
 export const INTRODUCTION_SECTION = {
   STACK_TEXT: "DESENVOLVEDOR WEB FULL-STACK",
   TITLE: "Construindo aplicações web de alta performance com React e .NET",
@@ -88,6 +98,8 @@ export const EXPERIENCE_SECTION = {
 export const PROJECTS_SECTION = {
   PROJECTS_TEXT: "Projetos",
   TITLE: "Trabalhos selecionados",
+  LIVE_DEMO_TEXT: "Acessar Demo",
+  SOURCE_TEXT: "Source Code",
   PROJECTS: [
     {
       title: "Plataforma SaaS de Gestão de Trabalhadores (Confidencial)",
@@ -125,4 +137,15 @@ export const PROJECTS_SECTION = {
       hideSource: true,
     },
   ],
+};
+
+export const CONTACT_SECTION = {
+  CONTACT_TEXT: "Contato",
+  TITLE: "Vamos trabalhar juntos.",
+  DESCRIPTION:
+    "Tem um projeto em mente? Estou disponível para oportunidades CLT, PJ e freelance. Vamos conversar — preencha o formulário ou entre em contato.",
+  COMING_SOON_LABEL: "Em breve",
+  FORM_TITLE: "Formulário de Contato",
+  FORM_MESSAGE:
+    "Estou configurando o serviço de e-mail. Enquanto isso, use os métodos de contato abaixo para entrar em contato.",
 };

@@ -1,4 +1,5 @@
 import type { ReactNode } from "react";
+import { PROJECTS_SECTION } from "../shared/constants";
 
 export type ProjectCardData = {
   /** Card title (e.g. "Analytics Dashboard") */
@@ -84,7 +85,7 @@ const ProjectsCards = ({ projects, className }: ProjectsCardsProps) => {
                         rel="noreferrer"
                         className="text-sm font-semibold text-blue-600 hover:text-blue-700"
                       >
-                        Live Demo
+                        {PROJECTS_SECTION.LIVE_DEMO_TEXT}
                       </a>
                     )
                   ) : null}
@@ -96,7 +97,7 @@ const ProjectsCards = ({ projects, className }: ProjectsCardsProps) => {
                       rel="noreferrer"
                       className="text-sm font-semibold text-slate-500 hover:text-slate-700"
                     >
-                      Source
+                      {PROJECTS_SECTION.SOURCE_TEXT}
                     </a>
                   ) : null}
 
