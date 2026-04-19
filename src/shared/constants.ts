@@ -149,3 +149,11 @@ export const CONTACT_SECTION = {
   FORM_MESSAGE:
     "Estou configurando o serviço de e-mail. Enquanto isso, use os métodos de contato abaixo para entrar em contato.",
 };
+
+export const AVAILABILITY_SECTION = {
+  STATUS_LABEL: "Disponível para oportunidades CLT, PJ e freelance",
+  TITLE: "Pronto para o seu próximo projeto.",
+  SUBTITLE:
+    "Entrego soluções prontas para produção, com qualidade e dentro do prazo. Posso contribuir para acelerar entregas e gerar valor contínuo para o time.",
+  CTA_TEXT: "Start a conversation",
+};
