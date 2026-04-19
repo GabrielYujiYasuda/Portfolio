@@ -18,6 +18,10 @@ export type ProjectCardData = {
   /** Optional trailing content (e.g. badges, actions) */
   children?: ReactNode;
   className?: string;
+  /** Disable clicking on the Live Demo button */
+  isLiveDemoDisabled?: boolean;
+  /** Hide the Source button */
+  hideSource?: boolean;
 };
 
 type ProjectsCardsProps = {
@@ -71,17 +75,21 @@ const ProjectsCards = ({ projects, className }: ProjectsCardsProps) => {
 
                 <div className="flex flex-wrap items-center gap-4 pt-2">
                   {project.liveUrl ? (
-                    <a
-                      href={project.liveUrl}
-                      target="_blank"
-                      rel="noreferrer"
-                      className="text-sm font-semibold text-blue-600 hover:text-blue-700"
-                    >
-                      Live Demo
-                    </a>
+                    project.isLiveDemoDisabled ? (
+                      <span className="text-sm font-semibold text-gray-400 cursor-not-allowed">Live Demo</span>
+                    ) : (
+                      <a
+                        href={project.liveUrl}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="text-sm font-semibold text-blue-600 hover:text-blue-700"
+                      >
+                        Live Demo
+                      </a>
+                    )
                   ) : null}
 
-                  {project.sourceUrl ? (
+                  {!project.hideSource && project.sourceUrl ? (
                     <a
                       href={project.sourceUrl}
                       target="_blank"

@@ -3,16 +3,16 @@ import { SKILLS_SECTION, STYLES } from "../../../shared/constants";
 
 const skillGroups = [
   {
-    title: "Frontend",
-    tags: ["React", "Android", "TypeScript", "Tailwind CSS", "Styled Components", "Redux"],
+    title: SKILLS_SECTION.SKILL_GROUPS.FRONTEND.TITLE,
+    tags: SKILLS_SECTION.SKILL_GROUPS.FRONTEND.TAGS,
   },
   {
-    title: "Backend",
-    tags: [".NET", "REST APIs", "Microservices", "Unit Tests", "SQL", "SQLServer", "Clean Code"],
+    title: SKILLS_SECTION.SKILL_GROUPS.BACKEND.TITLE,
+    tags: SKILLS_SECTION.SKILL_GROUPS.BACKEND.TAGS,
   },
   {
-    title: "Tools & Infra",
-    tags: ["Git", "Docker", "Azure", "CI/CD", "Figma"],
+    title: SKILLS_SECTION.SKILL_GROUPS.TOOLS_INFRA.TITLE,
+    tags: SKILLS_SECTION.SKILL_GROUPS.TOOLS_INFRA.TAGS,
   },
 ];
 
