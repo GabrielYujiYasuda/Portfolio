@@ -3,7 +3,6 @@ import { handleScroll } from "../shared/scrollUtils";
 import { CaretDownIcon, GlobeIcon } from "@phosphor-icons/react";
 
 const Header = () => {
-
   return (
     <header className="sticky top-0 z-50 bg-white/70 backdrop-blur-md border-b border-base-300">
       <div className={`mx-auto flex ${STYLES.BASE_HORIZONTAL_PADDING} items-center justify-between px-6 py-4`}>
@@ -59,7 +58,10 @@ const Header = () => {
                 <CaretDownIcon size={10} />
               </div>
               <ul tabIndex={-1} className="dropdown-content menu bg-base-100 rounded-box z-1 w-32 p-2 shadow-sm">
-                <li>
+                <li className="text-xs text-gray-500 pointer-events-none">
+                  <span>Work in Progress</span>
+                </li>
+                <li className="disabled">
                   <a>🇺🇸 English</a>
                 </li>
                 <li>
