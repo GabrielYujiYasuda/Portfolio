@@ -1,7 +1,19 @@
 import ProjectsCards from "../../../components/ProjectsCards";
 import { STYLES, PROJECTS_SECTION } from "../../../shared/constants";
+import cellphoneAppImg from "../../../assets/cellphone-app.png";
+import webAppImg from "../../../assets/web-app.png";
+import orcasoundImg from "../../../assets/orcasounde-photo.png";
 
-const projects = PROJECTS_SECTION.PROJECTS;
+const imageMap: Record<string, string> = {
+  "cellphone-app": cellphoneAppImg,
+  "web-app": webAppImg,
+  "orcasounde-photo": orcasoundImg,
+};
+
+const projects = PROJECTS_SECTION.PROJECTS.map((project) => ({
+  ...project,
+  imageSrc: imageMap[project.imageSrc] || project.imageSrc,
+}));
 
 const ProjectsSection = () => {
   return (

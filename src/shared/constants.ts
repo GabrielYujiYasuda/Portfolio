@@ -1,7 +1,3 @@
-import cellphoneAppImg from "../assets/cellphone-app.png";
-import webAppImg from "../assets/web-app.png";
-import orcasoundImg from "../assets/orcasounde-photo.png";
-
 export const GLOBALS = {
   GITHUB_URL: "https://github.com/GabrielYujiYasuda",
   LINKEDIN_URL: "https://www.linkedin.com/in/gabrielyasuda/",
@@ -114,7 +110,7 @@ export const PROJECTS_SECTION = {
       title: "Plataforma SaaS de Gestão de Trabalhadores (Confidencial)",
       description:
         "Plataforma SaaS de larga escala utilizada em toda a América do Norte para gestão de trabalhadores e acompanhamento de requisitos obrigatórios, garantindo conformidade com regulamentações locais. Atuei no desenvolvimento de APIs RESTful e microserviços, integrações críticas e otimização de performance, contribuindo para a confiabilidade e escalabilidade do sistema em produção.",
-      imageSrc: cellphoneAppImg,
+      imageSrc: "cellphone-app",
       imageAlt: "SaaS web application interface",
       tags: [".NET", "React", "SQL Server", "Microservices", "Azure DevOps"],
       liveUrl: "#",
@@ -126,7 +122,7 @@ export const PROJECTS_SECTION = {
       title: "Aplicativo Android Nativo (Confidencial)",
       description:
         "Aplicativo Android nativo utilizado por mais de 700 mil trabalhadores na América do Norte. Atuei na modernização da interface por meio da refatoração de layouts XML para Jetpack Compose, além de contribuir com melhorias de performance, usabilidade e manutenção do código.",
-      imageSrc: webAppImg,
+      imageSrc: "web-app",
       imageAlt: "Mobile Android app screenshot",
       tags: ["Android", "Kotlin", "Jetpack Compose", "XML"],
       liveUrl: "#",
@@ -138,7 +134,7 @@ export const PROJECTS_SECTION = {
       title: "Orca Sound (Voluntariado)",
       description:
         "Projeto voluntário focado na melhoria de aplicações web voltadas à experiência do usuário. Atuei no desenvolvimento com React, colaborando com a equipe de UX para evoluir a interface, melhorar a usabilidade e entregar uma experiência mais intuitiva e acessível.",
-      imageSrc: orcasoundImg,
+      imageSrc: "orcasounde-photo",
       imageAlt: "Orca Sound web application screenshot",
       tags: ["React", "TypeScript", "UX/UI", "Comunicação em Inglês"],
       liveUrl: "https://www.orcasound.net/",
