@@ -3,7 +3,7 @@ import ContactCards from "../../../components/ContactCards";
 
 const ContactSection = () => {
   return (
-    <section id="contact" className="my-20 ">
+    <section id="contact" className="my-20 scroll-mt-24">
       <div className={`mx-auto ${STYLES.BASE_HORIZONTAL_PADDING} py-20`}>
         <div className="max-w-2xl">
           <p className="text-sm font-semibold tracking-widest text-gray-500">{CONTACT_SECTION.CONTACT_TEXT}</p>

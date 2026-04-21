@@ -5,7 +5,7 @@ const projects = PROJECTS_SECTION.PROJECTS;
 
 const ProjectsSection = () => {
   return (
-    <section className="my-20">
+    <section id="projects" className="my-20 scroll-mt-24">
       <div className={`mx-auto ${STYLES.BASE_HORIZONTAL_PADDING} py-20`}>
         <div className="max-w-4xl">
           <p className="text-sm font-semibold tracking-widest text-gray-500">{PROJECTS_SECTION.PROJECTS_TEXT}</p>

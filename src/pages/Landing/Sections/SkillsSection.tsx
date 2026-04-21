@@ -18,7 +18,7 @@ const skillGroups = [
 
 const SkillsSection = () => {
   return (
-    <section className="my-20">
+    <section id="skills" className="my-20 scroll-mt-24">
       <div className={`mx-auto ${STYLES.BASE_HORIZONTAL_PADDING} py-20`}>
         <div className="max-w-4xl">
           <p className="text-sm font-semibold tracking-widest text-gray-500">{SKILLS_SECTION.SKILLS_TEXT}</p>
