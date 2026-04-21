@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { STYLES, HEADER } from "../shared/constants";
+import { CaretDownIcon, GlobeIcon } from "@phosphor-icons/react";
 
 const Header = () => {
   return (
@@ -26,12 +27,28 @@ const Header = () => {
               {HEADER.NAV_CONTACT}
             </Link>
           </nav>
-          <Link
-            to="/"
-            className="inline-flex items-center justify-center rounded-lg bg-blue-600 px-4 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-blue-700"
-          >
-            {HEADER.CTA_BUTTON}
-          </Link>
+          <div className="flex items-center gap-4">
+            <Link
+              to="/"
+              className="inline-flex items-center justify-center rounded-lg bg-blue-600 px-4 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-blue-700"
+            >
+              {HEADER.CTA_BUTTON}
+            </Link>
+            <div className="dropdown dropdown-end">
+              <div tabIndex={0} role="button" className="btn btn-sm btn-ghost text-[#6c6c75]">
+                <GlobeIcon size={20} />
+                <CaretDownIcon size={10} />
+              </div>
+              <ul tabIndex={-1} className="dropdown-content menu bg-base-100 rounded-box z-1 w-32 p-2 shadow-sm">
+                <li>
+                  <a>🇺🇸 English</a>
+                </li>
+                <li>
+                  <a>🇧🇷 Português</a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </header>
