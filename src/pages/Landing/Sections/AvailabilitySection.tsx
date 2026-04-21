@@ -1,10 +1,8 @@
 import AvailabilityCard from "../../../components/AvailabilityCard";
 import { STYLES, AVAILABILITY_SECTION } from "../../../shared/constants";
+import { handleScroll } from "../../../shared/scrollUtils";
 
 const AvailabilitySection = () => {
-  const handleScrollToContact = () => {
-    document.getElementById("contact")?.scrollIntoView({ behavior: "smooth", block: "start" });
-  };
 
   return (
     <section className="my-0">
@@ -14,7 +12,7 @@ const AvailabilitySection = () => {
           title={AVAILABILITY_SECTION.TITLE}
           subtitle={AVAILABILITY_SECTION.SUBTITLE}
           ctaText={AVAILABILITY_SECTION.CTA_TEXT}
-          onCtaClick={handleScrollToContact}
+          onCtaClick={() => handleScroll("contact")}
         />
       </div>
     </section>

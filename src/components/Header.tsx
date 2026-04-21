@@ -1,10 +1,8 @@
 import { STYLES, HEADER } from "../shared/constants";
+import { handleScroll } from "../shared/scrollUtils";
 import { CaretDownIcon, GlobeIcon } from "@phosphor-icons/react";
 
 const Header = () => {
-  const handleScroll = (sectionId: string) => {
-    document.getElementById(sectionId)?.scrollIntoView({ behavior: "smooth", block: "start" });
-  };
 
   return (
     <header className="sticky top-0 z-50 bg-white/70 backdrop-blur-md border-b border-base-300">

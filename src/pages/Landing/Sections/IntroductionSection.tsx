@@ -1,19 +1,9 @@
 import { INTRODUCTION_SECTION, STYLES } from "../../../shared/constants";
+import { handleScroll } from "../../../shared/scrollUtils";
 import myPhoto from "../../../assets/my-photo.jpg";
 import ScrollArrowDown from "../../../components/ScrollArrowDown";
 
 const IntroductionSection = () => {
-  const handleScrollToAbout = () => {
-    document.getElementById("about-me")?.scrollIntoView({ behavior: "smooth", block: "start" });
-  };
-
-  const handleScrollToContact = () => {
-    document.getElementById("contact")?.scrollIntoView({ behavior: "smooth", block: "start" });
-  };
-
-  const handleScrollToProjects = () => {
-    document.getElementById("projects")?.scrollIntoView({ behavior: "smooth", block: "start" });
-  };
 
   return (
     <section className="relative my-20 pb-28">
@@ -26,13 +16,13 @@ const IntroductionSection = () => {
           <p className="mt-6 max-w-xl text-base text-slate-600 text-[18px]">{INTRODUCTION_SECTION.SUB_TITLE}</p>
           <div className="mt-10 flex flex-col gap-3 sm:flex-row">
             <button
-              onClick={handleScrollToContact}
+              onClick={() => handleScroll("contact")}
               className="inline-flex items-center justify-center rounded-lg bg-blue-600 px-6 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-blue-700"
             >
               {INTRODUCTION_SECTION.WORK_WITH_ME_TEXT}
             </button>
             <button
-              onClick={handleScrollToProjects}
+              onClick={() => handleScroll("projects")}
               className="inline-flex items-center justify-center rounded-lg border border-slate-200 bg-white px-6 py-3 text-sm font-semibold text-slate-700 shadow-sm transition hover:bg-slate-50"
             >
               {INTRODUCTION_SECTION.VIEW_PROJECTS_TEXT}
@@ -49,7 +39,7 @@ const IntroductionSection = () => {
         </div>
       </div>
 
-      <ScrollArrowDown scrollTo={handleScrollToAbout} />
+      <ScrollArrowDown scrollTo={() => handleScroll("about-me")} />
     </section>
   );
 };
