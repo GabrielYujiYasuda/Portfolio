@@ -135,7 +135,7 @@ export const PROJECTS_SECTION = {
       liveUrl: "https://www.orcasound.net/",
       sourceUrl: "#",
       hideSource: true,
-    },
+    },>
   ],
 };
 
