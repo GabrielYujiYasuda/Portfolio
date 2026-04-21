@@ -119,7 +119,7 @@ export const PROJECTS_SECTION = {
         "Aplicativo Android nativo utilizado por mais de 700 mil trabalhadores na América do Norte. Atuei na modernização da interface por meio da refatoração de layouts XML para Jetpack Compose, além de contribuir com melhorias de performance, usabilidade e manutenção do código.",
       imageSrc: "/src/assets/web-app.png",
       imageAlt: "Mobile Android app screenshot",
-      tags: ["Android", "Kotlin", "Jetpack Compose"],
+      tags: ["Android", "Kotlin", "Jetpack Compose", "XML"],
       liveUrl: "#",
       sourceUrl: "#",
       isLiveDemoDisabled: true,

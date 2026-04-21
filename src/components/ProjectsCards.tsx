@@ -77,7 +77,9 @@ const ProjectsCards = ({ projects, className }: ProjectsCardsProps) => {
                 <div className="flex flex-wrap items-center gap-4 pt-2">
                   {project.liveUrl ? (
                     project.isLiveDemoDisabled ? (
-                      <span className="text-sm font-semibold text-gray-400 cursor-not-allowed">Live Demo</span>
+                      <span className="text-sm font-semibold text-gray-400 cursor-not-allowed">
+                        {PROJECTS_SECTION.LIVE_DEMO_TEXT}
+                      </span>
                     ) : (
                       <a
                         href={project.liveUrl}
