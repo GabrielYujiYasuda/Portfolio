@@ -1,7 +1,3 @@
-import cellphoneAppImg from "../assets/cellphone-app.png";
-import webAppImg from "../assets/web-app.png";
-import orcaSoundImg from "../assets/orcasounde-photo.png";
-
 const BASE_URL = import.meta.env.BASE_URL;
 
 export const GLOBALS = {
@@ -116,7 +112,7 @@ export const PROJECTS_SECTION = {
       title: "Plataforma SaaS de Gestão de Trabalhadores (Confidencial)",
       description:
         "Plataforma SaaS de larga escala utilizada em toda a América do Norte para gestão de trabalhadores e acompanhamento de requisitos obrigatórios, garantindo conformidade com regulamentações locais. Atuei no desenvolvimento de APIs RESTful e microserviços, integrações críticas e otimização de performance, contribuindo para a confiabilidade e escalabilidade do sistema em produção.",
-      imageSrc: new URL(cellphoneAppImg, BASE_URL).href,
+      imageSrc: `${BASE_URL}src/assets/cellphone-app.png`,
       imageAlt: "SaaS web application interface",
       tags: [".NET", "React", "SQL Server", "Microservices", "Azure DevOps"],
       liveUrl: "#",
@@ -128,7 +124,7 @@ export const PROJECTS_SECTION = {
       title: "Aplicativo Android Nativo (Confidencial)",
       description:
         "Aplicativo Android nativo utilizado por mais de 700 mil trabalhadores na América do Norte. Atuei na modernização da interface por meio da refatoração de layouts XML para Jetpack Compose, além de contribuir com melhorias de performance, usabilidade e manutenção do código.",
-      imageSrc: new URL(webAppImg, BASE_URL).href,
+      imageSrc: `${BASE_URL}src/assets/web-app.png`,
       imageAlt: "Mobile Android app screenshot",
       tags: ["Android", "Kotlin", "Jetpack Compose", "XML"],
       liveUrl: "#",
@@ -140,7 +136,7 @@ export const PROJECTS_SECTION = {
       title: "Orca Sound (Voluntariado)",
       description:
         "Projeto voluntário focado na melhoria de aplicações web voltadas à experiência do usuário. Atuei no desenvolvimento com React, colaborando com a equipe de UX para evoluir a interface, melhorar a usabilidade e entregar uma experiência mais intuitiva e acessível.",
-      imageSrc: new URL(orcaSoundImg, BASE_URL).href,
+      imageSrc: `${BASE_URL}src/assets/orcasounde-photo.png`,
       imageAlt: "Orca Sound web application screenshot",
       tags: ["React", "TypeScript", "UX/UI", "Comunicação em Inglês"],
       liveUrl: "https://www.orcasound.net/",
