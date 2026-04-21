@@ -15,6 +15,11 @@ export const HEADER = {
   NAV_PROJECTS: "Projetos",
   NAV_CONTACT: "Contato",
   CTA_BUTTON: "Trabalhe Comigo",
+  LANGUAGE_DROPDOWN: {
+    PORTUGUESE: "🇧🇷 Português",
+    ENGLISH: "🇺🇸 English",
+    WORK_IN_PROGRESS: "Work in Progress",
+  },
 };
 
 export const INTRODUCTION_SECTION = {

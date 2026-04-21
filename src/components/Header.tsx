@@ -59,13 +59,13 @@ const Header = () => {
               </div>
               <ul tabIndex={-1} className="dropdown-content menu bg-base-100 rounded-box z-1 w-32 p-2 shadow-sm">
                 <li className="text-xs text-gray-500 pointer-events-none">
-                  <span>Work in Progress</span>
+                  <span>{HEADER.LANGUAGE_DROPDOWN.WORK_IN_PROGRESS}</span>
                 </li>
                 <li className="disabled">
-                  <a>🇺🇸 English</a>
+                  <a>{HEADER.LANGUAGE_DROPDOWN.ENGLISH}</a>
                 </li>
                 <li>
-                  <a>🇧🇷 Português</a>
+                  <a>{HEADER.LANGUAGE_DROPDOWN.PORTUGUESE}</a>
                 </li>
               </ul>
             </div>
