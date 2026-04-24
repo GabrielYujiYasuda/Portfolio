@@ -26,7 +26,7 @@ export const INTRODUCTION_SECTION = {
   STACK_TEXT: "DESENVOLVEDOR WEB FULL-STACK",
   TITLE: "Construindo aplicações web de alta performance com React e .NET",
   SUB_TITLE: "Desenvolvedor focado em construção de aplicações performáticas e bem estruturadas",
-  WORK_WITH_ME_TEXT: "Trabelhe Comigo",
+  WORK_WITH_ME_TEXT: "Trabalhe Comigo",
   VIEW_PROJECTS_TEXT: "Veja meus projetos",
 };
 
