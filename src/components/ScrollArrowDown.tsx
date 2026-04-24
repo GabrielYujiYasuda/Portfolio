@@ -4,14 +4,14 @@ type ScrollArrowDownProps = {
   ariaLabel?: string;
 };
 
-const ScrollArrowDown = ({ scrollTo, className = "", ariaLabel = "Scroll down" }: ScrollArrowDownProps) => {
+const ScrollArrowDown = ({ scrollTo, className = "bottom-6", ariaLabel = "Scroll down" }: ScrollArrowDownProps) => {
   return (
     <button
       type="button"
       onClick={scrollTo}
       aria-label={ariaLabel}
       className={
-        "absolute bottom-6 left-1/2 flex -translate-x-1/2 items-center justify-center text-slate-500 transition hover:text-slate-900 " +
+        "absolute left-1/2 flex -translate-x-1/2 items-center justify-center text-slate-500 transition hover:text-slate-900 " +
         className
       }
     >

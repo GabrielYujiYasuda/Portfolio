@@ -4,15 +4,17 @@ import { CaretDownIcon, GlobeIcon } from "@phosphor-icons/react";
 
 const Header = () => {
   return (
-    <header className="sticky top-0 z-50 bg-white/70 backdrop-blur-md border-b border-base-300">
-      <div className={`mx-auto flex ${STYLES.BASE_HORIZONTAL_PADDING} items-center justify-between px-6 py-4`}>
+    <header className="sticky top-0 z-50 border-b border-base-300 bg-white/70 backdrop-blur-md">
+      <div
+        className={`mx-auto flex ${STYLES.BASE_HORIZONTAL_PADDING} flex-wrap items-center justify-between gap-3 px-4 py-4 sm:px-6`}
+      >
         <button
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
           className="text-[18px] font-semibold text-[rgb(9,9,11)] bg-transparent border-none p-0 cursor-pointer hover:opacity-70"
         >
           {HEADER.LOGO}
         </button>
-        <div className="flex items-center gap-8">
+        <div className="flex items-center gap-3 sm:gap-6">
           <nav className="hidden lg:flex items-center gap-6">
             <button
               onClick={() => handleScroll("about-me")}
@@ -48,7 +50,7 @@ const Header = () => {
           <div className="flex items-center gap-4">
             <button
               onClick={() => handleScroll("contact")}
-              className="inline-flex items-center justify-center rounded-lg bg-blue-600 px-4 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-blue-700 cursor-pointer"
+              className="inline-flex items-center justify-center rounded-lg bg-blue-600 px-3 py-2 text-xs font-semibold text-white shadow-sm transition hover:bg-blue-700 cursor-pointer sm:px-4 sm:py-3 sm:text-sm"
             >
               {HEADER.CTA_BUTTON}
             </button>

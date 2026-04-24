@@ -13,7 +13,7 @@ const SkillCard = ({ title, subtitle, tags, children, className }: CardProps) =>
     <div
       className={`card w-full max-w-md rounded-3xl bg-white/70 shadow-xl ring-1 ring-black/5 transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl ${className ?? ""}`}
     >
-      <div className="card-body gap-6">
+      <div className="card-body gap-6 p-6 sm:p-7">
         <div>
           <h3 className="text-sm font-semibold tracking-widest text-gray-500">{title}</h3>
           {subtitle ? <p className="mt-2 text-sm font-medium text-slate-700">{subtitle}</p> : null}

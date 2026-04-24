@@ -23,11 +23,11 @@ const ExperienceCard = ({
     <div
       className={`card w-full rounded-3xl bg-white/70 shadow-xl ring-1 ring-black/5 transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl ${className ?? ""}`}
     >
-      <div className="card-body gap-5">
+      <div className="card-body gap-5 p-6 sm:p-8">
         <div className="flex items-start justify-between gap-4">
           <div>
             <p className="text-xs font-semibold tracking-widest text-gray-500 uppercase">{dateRange}</p>
-            <h3 className="mt-2 text-xl font-semibold text-slate-900">{title}</h3>
+            <h3 className="mt-2 text-lg font-semibold text-slate-900 sm:text-xl">{title}</h3>
             <p className="mt-1 text-sm font-medium text-slate-600">{company}</p>
             {subtitle ? <p className="mt-1 text-sm text-slate-500">{subtitle}</p> : null}
           </div>
