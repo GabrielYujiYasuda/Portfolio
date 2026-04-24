@@ -160,5 +160,5 @@ export const AVAILABILITY_SECTION = {
   TITLE: "Pronto para o seu próximo projeto.",
   SUBTITLE:
     "Entrego soluções prontas para produção, com qualidade e dentro do prazo. Posso contribuir para acelerar entregas e gerar valor contínuo para o time.",
-  CTA_TEXT: "Start a conversation",
+  CTA_TEXT: "Entre em Contato",
 };
